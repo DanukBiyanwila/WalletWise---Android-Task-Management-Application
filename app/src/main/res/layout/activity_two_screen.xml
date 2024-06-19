@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/background_Color"
+    android:layout_height="match_parent"
+    tools:context=".TwoScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/secondary"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Ready to take control of your finances? Let's get started with WalletWise! Your journey to financial empowerment begins here. Easily set up your account, personalize your financial goals, and explore the intuitive features that make managing your money a breeze. Join a community that values simplicity, security, and smart financial choices. Start your WalletWise adventure today and embark on a path towards financial success!"
+            />
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:text="@string/get_start_with_us"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/two_next"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/secondary"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</ScrollView>

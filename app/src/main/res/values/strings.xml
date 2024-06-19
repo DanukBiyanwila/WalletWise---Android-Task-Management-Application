@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WalletWise</string>
+    <string name="login_up_now">Login Up Now</string>
+    <string name="if_your_have_account">If Your Have Account</string>
+    <string name="sing_in">Sing In</string>
+    <string name="password">Password</string>
+    <string name="gmail">Gmail</string>
+    <string name="login">Login</string>
+    <string name="login_now">Login Now</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="register_now">Register</string>
+    <string name="if_your_don_t_have_account">If Your Don\'t Have Account</string>
+    <string name="get_start_with_us">Get Start With Us</string>
+    <string name="welcome_walletwise">WelCome WalletWise</string>
+    <string name="our_main_services">Our Main Services</string>
+    <string name="budget_category">Budget Category</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+</resources>
